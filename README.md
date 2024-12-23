@@ -1,9 +1,9 @@
-# AquaDex - Decentralized Exchange on Crossifi Testnet
+# BakerySwap - Decentralized Exchange on Binance Smart Chain
 
-AquaDex is a cutting-edge **Automated Market Maker (AMM)** protocol designed and deployed on the **Crossifi Testnet** blockchain. AquaDex aims to provide a seamless and decentralized platform for adding liquidity to a pool containing the **BNB** (native token) and **DBNB** (derived token) pair, as well as enabling users to easily swap between these two tokens. AquaDex empowers liquidity providers (LPs) by rewarding them with a share of the platform’s transaction fees in exchange for their liquidity, ensuring a dynamic and efficient DeFi ecosystem.
+AquaDex is a cutting-edge **Automated Market Maker (AMM)** protocol designed and deployed on the **Binance Smart Chain (BSC)**. AquaDex aims to provide a seamless and decentralized platform for adding liquidity to a pool containing the **BNB** (native token) and **DBNB** (derived token) pair, as well as enabling users to easily swap between these two tokens. AquaDex empowers liquidity providers (LPs) by rewarding them with a share of the platform’s transaction fees in exchange for their liquidity, ensuring a dynamic and efficient DeFi ecosystem.
 
 ## 🌟 Table of Contents
-- [AquaDex - Decentralized Exchange on Crossifi Testnet](#aquadex---decentralized-exchange-on-crossifi-testnet)
+- [BakerySwap - Decentralized Exchange on Binance Smart Chain](#bakeryswap---decentralized-exchange-on-binance-smart-chain)
   - [🌟 Table of Contents](#-table-of-contents)
   - [🌐 Overview](#-overview)
     - [Core Features:](#core-features)
@@ -26,15 +26,15 @@ AquaDex is a cutting-edge **Automated Market Maker (AMM)** protocol designed and
 
 ## 🌐 Overview
 
-**AquaDex** is a fully decentralized exchange protocol that utilizes an **Automated Market Maker (AMM)** to allow token swaps and liquidity provision. It is designed for users to interact with **BNB** (the native token) and **DBNB** (a derivative token) on the **Crossifi Testnet** blockchain. AquaDex enables users to add liquidity to a pool, swap tokens, and remove liquidity—all in a trustless, permissionless, and secure environment.
+**AquaDex** is a fully decentralized exchange protocol that utilizes an **Automated Market Maker (AMM)** to allow token swaps and liquidity provision. It is designed for users to interact with **BNB** (the native token) and **DBNB** (a derivative token) on the **Binance Smart Chain (BSC)**. AquaDex enables users to add liquidity to a pool, swap tokens, and remove liquidity—all in a trustless, permissionless, and secure environment.
 
-By providing liquidity to the **BNB/DBNB** pool, users contribute to the overall health of the decentralized exchange while earning rewards. AquaDex offers a fast, efficient, and cost-effective way for users to engage with DeFi applications on the Crossifi Testnet.
+By providing liquidity to the **BNB/DBNB** pool, users contribute to the overall health of the decentralized exchange while earning rewards. AquaDex offers a fast, efficient, and cost-effective way for users to engage with DeFi applications on the Binance Smart Chain.
 
 ### Core Features:
 - **Add Liquidity**: Users can add liquidity to the pool by depositing **BNB** and **DBNB** tokens in equal amounts. Liquidity providers receive LP tokens as proof of their contribution.
 - **Remove Liquidity**: Users can withdraw their liquidity and receive back a proportional share of **BNB** and **DBNB** tokens.
 - **Token Swap**: Users can perform token swaps between **BNB** and **DBNB** tokens at market prices set by the liquidity pool.
-- **Crossifi Testnet Compatibility**: AquaDex is deployed on the **Crossifi Testnet**, enabling users to interact with the platform without spending real funds.
+- **Binance Smart Chain Compatibility**: AquaDex is deployed on the **Binance Smart Chain**, enabling users to interact with the platform using the native blockchain without incurring high fees.
 
 ---
 
@@ -43,7 +43,7 @@ By providing liquidity to the **BNB/DBNB** pool, users contribute to the overall
 - **💧 Add Liquidity to the Pool**: Liquidity providers can deposit equal amounts of **BNB** and **DBNB** tokens, adding liquidity to the platform. In return, they receive LP tokens representing their share of the pool.
 - **❌ Remove Liquidity**: Liquidity providers can withdraw their liquidity and get a proportional share of **BNB** and **DBNB** tokens based on their share in the pool.
 - **🔄 Token Swap**: Swap between **BNB** and **DBNB** tokens with instant execution. The price is automatically set based on the liquidity pool.
-- **⚙️ Crossifi Testnet Integration**: AquaDex works seamlessly with the **Crossifi Testnet**, allowing users to test and interact with the protocol before moving to the mainnet.
+- **⚙️ Binance Smart Chain Integration**: AquaDex works seamlessly with the **Binance Smart Chain**, allowing users to test and interact with the protocol without spending real funds.
 
 ---
 
@@ -56,8 +56,8 @@ To get started with **AquaDex**, follow the steps below to set up the developmen
 Before you begin, make sure you have the following tools installed:
 
 1. **Node.js**: [Download and Install Node.js](https://nodejs.org/) (Recommended version: LTS).
-2. **Metamask**: [Install Metamask](https://metamask.io/) - this wallet will interact with the Ethereum-compatible blockchain, including the Crossifi Testnet.
-3. **Crossifi Testnet Configuration**: Add the **Crossifi Testnet** network to your Metamask wallet. Use the provided RPC and chain ID for the testnet.
+2. **Metamask**: [Install Metamask](https://metamask.io/) - this wallet will interact with Ethereum-compatible blockchains, including **Binance Smart Chain**.
+3. **Binance Smart Chain Configuration**: Add the **Binance Smart Chain** network to your Metamask wallet. Use the provided RPC and chain ID for the mainnet or testnet.
 
 ### 📦 Installation
 
@@ -66,8 +66,8 @@ To set up AquaDex locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/GillHapp/Aquadex
-   cd aquadex
+   git clone https://github.com/GillHapp/BakerySwap_bnb.git
+   cd BakerySwap_bnb
    ```
 
 2. **Install dependencies**:
@@ -80,7 +80,7 @@ To set up AquaDex locally, follow these steps:
 
 To run the AquaDex project locally:
 
-1. Ensure that your Metamask wallet is connected to the **Crossifi Testnet**.
+1. Ensure that your Metamask wallet is connected to the **Binance Smart Chain** network.
 2. Start the development server:
 
    ```bash
@@ -184,7 +184,9 @@ We welcome contributions to AquaDex! If you'd like to improve the project, feel 
    git clone https://github.com/GillHapp/Aquadex
    ```
 
-3. **Create a new branch**:
+3. **Create a new branch**
+
+:
 
    ```bash
    git checkout -b feature-branch
@@ -207,10 +209,14 @@ We welcome contributions to AquaDex! If you'd like to improve the project, feel 
 ---
 
 ### Acknowledgments:
-- **Crossifi Testnet**: This project is built on the **Crossifi Testnet** blockchain, providing a robust testing environment for AquaDex.
+- **Binance Smart Chain**: This project is built on the **Binance Smart Chain**, providing a fast and cost-efficient environment for decentralized finance.
 - **Metamask**: For secure interaction with Ethereum-based networks.
 - **Ethers.js**: To interact with the Ethereum blockchain in a seamless and efficient manner.
 
 ---
 
-**Thank you for using AquaDex!** We hope this decentralized exchange platform enhances your experience in decentralized finance (DeFi) on the **Crossifi Testnet**.
+**Thank you for using AquaDex!** We hope this decentralized exchange platform enhances your experience in decentralized finance (DeFi) on the **Binance Smart Chain**.
+
+---
+
+This version has been updated to reflect the new chain and token names relevant to **Binance Smart Chain** (BSC). Let me know if you need further adjustments!
