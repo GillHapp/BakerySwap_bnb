@@ -3,7 +3,7 @@ import { ethers, parseEther } from "ethers";
 import dexABI from "./contract.json";
 
 const provider = new ethers.BrowserProvider(window.ethereum);
-const liquidityContractAddress = "0xeC56bC8Fa6AEd2CD45395cAbaF45Cc3162B65bD2"; // Replace with your actual contract address
+const liquidityContractAddress = "0x1B9396bE5DAeDA6E17d66136007e80f8d62E3109"; // Replace with your actual contract address
 
 const LiquidityManager = () => {
     const [activeTab, setActiveTab] = useState("add"); // Tracks active tab: "add" or "remove"
@@ -22,7 +22,7 @@ const LiquidityManager = () => {
                 signer
             );
 
-            const amountInWei = parseEther(amount); // Convert DBNB amount to Wei
+            const amountInWei = await parseEther(amount); // Convert DBNB amount to Wei
             const requiredXFIWei = await liquidityContract.calculateRequiredEthForLiquidity(amountInWei); // Call the smart contract method
 
             return ethers.formatUnits(requiredXFIWei, 18); // Convert Wei to BNB (ETH)
